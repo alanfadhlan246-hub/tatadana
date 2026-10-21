@@ -85,16 +85,18 @@ app.use((err, req, res, next) => {
   });
 });
 
-// Start Server
-app.listen(PORT, '0.0.0.0', () => {
-  console.log(`====================================================`);
-  console.log(`🚀 TataDana Server berjalan aktif:`);
-  console.log(`💻 Local (Laptop):    http://localhost:${PORT}`);
-  console.log(`📱 Dual Perangkat (HP / Laptop Lain): http://192.168.1.3:${PORT}`);
-  console.log(`🕒 Waktu Server: ${getWIBDate(new Date())}`);
-  console.log(`🔌 Mode Database: ${isSupabaseConfigured() ? 'Supabase Cloud' : 'Dual-Ready Local Persistent Store'}`);
-  console.log(`🤖 Telegram Webhook Endpoint: http://localhost:${PORT}/api/telegram/webhook`);
-  console.log(`====================================================`);
-});
+// Start Server (only when run directly or not in Vercel serverless)
+if (!process.env.VERCEL && (require.main === module || !module.parent)) {
+  app.listen(PORT, '0.0.0.0', () => {
+    console.log(`====================================================`);
+    console.log(`🚀 TataDana Server berjalan aktif:`);
+    console.log(`💻 Local (Laptop):    http://localhost:${PORT}`);
+    console.log(`📱 Dual Perangkat (HP / Laptop Lain): http://192.168.1.3:${PORT}`);
+    console.log(`🕒 Waktu Server: ${getWIBDate(new Date())}`);
+    console.log(`🔌 Mode Database: ${isSupabaseConfigured() ? 'Supabase Cloud' : 'Dual-Ready Local Persistent Store'}`);
+    console.log(`🤖 Telegram Webhook Endpoint: http://localhost:${PORT}/api/telegram/webhook`);
+    console.log(`====================================================`);
+  });
+}
 
 module.exports = app;

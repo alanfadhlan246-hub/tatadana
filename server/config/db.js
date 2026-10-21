@@ -6,12 +6,22 @@ const path = require('path');
 const crypto = require('crypto');
 const bcrypt = require('bcryptjs');
 
-const DATA_DIR = path.join(__dirname, '..', 'data');
+const BUNDLED_DB_FILE = path.join(__dirname, '..', 'data', 'local_db.json');
+const DATA_DIR = process.env.VERCEL ? '/tmp' : path.join(__dirname, '..', 'data');
 const DB_FILE = path.join(DATA_DIR, 'local_db.json');
 
 // Ensure data directory exists
 if (!fs.existsSync(DATA_DIR)) {
   fs.mkdirSync(DATA_DIR, { recursive: true });
+}
+
+// On Vercel serverless environment, copy seed/bundled DB to writable /tmp
+if (process.env.VERCEL && !fs.existsSync(DB_FILE) && fs.existsSync(BUNDLED_DB_FILE)) {
+  try {
+    fs.copyFileSync(BUNDLED_DB_FILE, DB_FILE);
+  } catch (e) {
+    console.warn('[DB] Could not copy initial db to /tmp:', e.message);
+  }
 }
 
 // Initial seed template for Localhost fallback
