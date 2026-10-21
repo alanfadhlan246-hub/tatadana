@@ -1,0 +1,1210 @@
+{
+  "profiles": [
+    {
+      "id": "a1111111-1111-1111-1111-111111111111",
+      "email": "fadhlan2146@gmail.com",
+      "password_hash": "$2a$10$jGBHHG2o3esbyjnSK/vUJuR.RMKFqzpSm5PoUJpY65bzImpAoZ9k.",
+      "phone_number": "081299990000",
+      "full_name": "Fadhlan (Super Admin)",
+      "role": "admin",
+      "approval_status": "approved",
+      "plan": "pro",
+      "currency": "IDR",
+      "reminder_enabled": true,
+      "reminder_frequency": 1,
+      "reminder_time_1": "09:00:00",
+      "reminder_time_2": "20:00:00",
+      "created_at": "2026-10-21T06:59:16.446Z"
+    },
+    {
+      "id": "47bf2e71-2e0e-4379-a9a5-b73c4ff5d3ff",
+      "email": "arid@gmail.com",
+      "phone_number": "0987654321",
+      "password_hash": "$2a$10$V0gtJn7By2vfPMEsIp3DiuC4.iUHDXLW9nS35Evah8uwxR6QbX1ya",
+      "full_name": "arid",
+      "role": "user",
+      "approval_status": "approved",
+      "plan": "starter",
+      "currency": "IDR",
+      "default_wallet_id": "551bdd60-6c94-419e-ba54-26c1f8d33769",
+      "reminder_enabled": true,
+      "reminder_frequency": 1,
+      "reminder_time_1": "09:00:00",
+      "reminder_time_2": "20:00:00",
+      "created_at": "2026-10-21T07:02:14.876Z",
+      "approved_by": "a1111111-1111-1111-1111-111111111111",
+      "approved_at": "2026-10-21T07:04:09.162Z",
+      "approval_notes": "Disetujui oleh Super Admin",
+      "updated_at": "2026-10-21T07:04:09.162Z"
+    },
+    {
+      "id": "a0d6eef9-7c4b-49db-8e25-1a03aab2d704",
+      "email": "user_389190@gmail.com",
+      "phone_number": "08138919088",
+      "password_hash": "$2a$10$67vuuBbEx8DYtWcJcEsdROM/uJrEuKvoMpqr9SUImeJZS2vRKa18.",
+      "full_name": "User Tes Mandiri",
+      "role": "user",
+      "approval_status": "approved",
+      "plan": "starter",
+      "currency": "IDR",
+      "default_wallet_id": "c74ac4aa-9d75-4dbe-9bb5-c58ed3c937e1",
+      "reminder_enabled": true,
+      "reminder_frequency": 1,
+      "reminder_time_1": "09:00:00",
+      "reminder_time_2": "20:00:00",
+      "created_at": "2026-10-21T07:10:55.195Z",
+      "approved_by": "a1111111-1111-1111-1111-111111111111",
+      "approved_at": "2026-10-21T07:10:57.141Z",
+      "approval_notes": "Disetujui oleh Super Admin",
+      "updated_at": "2026-10-21T07:10:57.141Z"
+    },
+    {
+      "id": "c6029df3-b586-434f-a179-e595dab259c0",
+      "email": "user_395606@test.com",
+      "phone_number": "08139560699",
+      "password_hash": "$2a$10$lCFMfHdgUgAjTdpVdGw1t.jvf4eKn7yAh0IPJ731XOxRXfN5p3HJ6",
+      "full_name": "Calon Nasabah Baru",
+      "role": "user",
+      "approval_status": "approved",
+      "plan": "starter",
+      "currency": "IDR",
+      "default_wallet_id": "607e7c50-4847-40ac-bddd-beafb6a43200",
+      "reminder_enabled": true,
+      "reminder_frequency": 1,
+      "reminder_time_1": "09:00:00",
+      "reminder_time_2": "20:00:00",
+      "created_at": "2026-10-21T07:12:18.755Z",
+      "approved_by": "a1111111-1111-1111-1111-111111111111",
+      "approved_at": "2026-10-21T07:12:21.193Z",
+      "approval_notes": "Disetujui oleh Super Admin",
+      "updated_at": "2026-10-21T07:12:21.193Z"
+    },
+    {
+      "id": "1050e9de-6d10-4867-b8b1-92eb0cf141af",
+      "email": "fadli@gmail.com",
+      "phone_number": "098989898989",
+      "password_hash": "$2a$10$RyWUvD5PbA87loUqjXN60uiQk8dZLjRdr1JUGUjq1rIbw56CBEKwq",
+      "full_name": "fadli",
+      "role": "user",
+      "approval_status": "pending_approval",
+      "plan": "starter",
+      "currency": "IDR",
+      "default_wallet_id": "9f5e57e6-9a53-4639-9c32-19cf1fbec60d",
+      "reminder_enabled": true,
+      "reminder_frequency": 1,
+      "reminder_time_1": "09:00:00",
+      "reminder_time_2": "20:00:00",
+      "created_at": "2026-10-21T07:14:13.485Z"
+    },
+    {
+      "id": "b30e44f5-c8ba-4793-8931-7bf5230cc1f8",
+      "email": "user_device2_1792567417303@gmail.com",
+      "phone_number": "081299887766",
+      "password_hash": "$2a$10$i3VdXr8rHPhlQ.kP8HXns.0I/2wkXXl1jKu6iF.WvJUsrDcsOF33S",
+      "full_name": "Budi Santoso (HP)",
+      "role": "user",
+      "approval_status": "approved",
+      "plan": "starter",
+      "currency": "IDR",
+      "default_wallet_id": "15857d41-3422-4ae0-b36d-09ef94e598f1",
+      "reminder_enabled": true,
+      "reminder_frequency": 1,
+      "reminder_time_1": "09:00:00",
+      "reminder_time_2": "20:00:00",
+      "created_at": "2026-10-21T07:23:37.443Z",
+      "approved_by": "a1111111-1111-1111-1111-111111111111",
+      "approved_at": "2026-10-21T07:23:37.553Z",
+      "approval_notes": "Disetujui oleh Super Admin",
+      "updated_at": "2026-10-21T07:23:37.553Z"
+    },
+    {
+      "id": "0ea5354f-4ee7-408d-b2f8-8a0066e16842",
+      "email": "alan@gmail.com",
+      "phone_number": "0876765656",
+      "password_hash": "$2a$10$5bRMKS8V1oSJtOxv0kyEG.317N94kwpqA262REthO8/VVaf872ZX.",
+      "full_name": "alan",
+      "role": "user",
+      "approval_status": "approved",
+      "plan": "starter",
+      "currency": "IDR",
+      "default_wallet_id": "c51f6494-fb95-4738-93be-a6b6f53a31ba",
+      "reminder_enabled": true,
+      "reminder_frequency": 1,
+      "reminder_time_1": "09:00:00",
+      "reminder_time_2": "20:00:00",
+      "created_at": "2026-10-21T07:25:57.278Z",
+      "approved_by": "a1111111-1111-1111-1111-111111111111",
+      "approved_at": "2026-10-21T07:26:31.517Z",
+      "approval_notes": "Disetujui oleh Super Admin",
+      "updated_at": "2026-10-21T07:26:31.517Z"
+    },
+    {
+      "id": "014bb5b4-a643-4a9d-b150-3cd70f6833c9",
+      "email": "rere@gmail.com",
+      "phone_number": "09878787871",
+      "password_hash": "$2a$10$5HA13JcLCNDUhviEH2Uknu8BlsGngR1F.KINv4IquFTjkVOxTwU1S",
+      "full_name": "rere",
+      "role": "user",
+      "approval_status": "approved",
+      "plan": "starter",
+      "currency": "IDR",
+      "default_wallet_id": "0e276cd5-6249-4c23-963c-67b90a8f3b3f",
+      "reminder_enabled": true,
+      "reminder_frequency": 1,
+      "reminder_time_1": "09:00:00",
+      "reminder_time_2": "20:00:00",
+      "created_at": "2026-10-21T11:50:45.932Z",
+      "approved_by": "a1111111-1111-1111-1111-111111111111",
+      "approved_at": "2026-10-21T11:51:03.349Z",
+      "approval_notes": "Disetujui oleh Super Admin",
+      "updated_at": "2026-10-21T11:51:03.349Z"
+    }
+  ],
+  "wallets": [
+    {
+      "id": "551bdd60-6c94-419e-ba54-26c1f8d33769",
+      "user_id": "47bf2e71-2e0e-4379-a9a5-b73c4ff5d3ff",
+      "name": "BCA Utama",
+      "type": "bank",
+      "balance": 0,
+      "is_default": true,
+      "color": "#0284c7",
+      "icon": "bank",
+      "created_at": "2026-10-21T07:02:14.877Z"
+    },
+    {
+      "id": "c74ac4aa-9d75-4dbe-9bb5-c58ed3c937e1",
+      "user_id": "a0d6eef9-7c4b-49db-8e25-1a03aab2d704",
+      "name": "BCA Utama",
+      "type": "bank",
+      "balance": 0,
+      "is_default": true,
+      "color": "#0284c7",
+      "icon": "bank",
+      "created_at": "2026-10-21T07:10:55.196Z"
+    },
+    {
+      "id": "607e7c50-4847-40ac-bddd-beafb6a43200",
+      "user_id": "c6029df3-b586-434f-a179-e595dab259c0",
+      "name": "BCA Utama",
+      "type": "bank",
+      "balance": 0,
+      "is_default": true,
+      "color": "#0284c7",
+      "icon": "bank",
+      "created_at": "2026-10-21T07:12:18.756Z"
+    },
+    {
+      "id": "9f5e57e6-9a53-4639-9c32-19cf1fbec60d",
+      "user_id": "1050e9de-6d10-4867-b8b1-92eb0cf141af",
+      "name": "BCA Utama",
+      "type": "bank",
+      "balance": 0,
+      "is_default": true,
+      "color": "#0284c7",
+      "icon": "bank",
+      "created_at": "2026-10-21T07:14:13.486Z"
+    },
+    {
+      "id": "15857d41-3422-4ae0-b36d-09ef94e598f1",
+      "user_id": "b30e44f5-c8ba-4793-8931-7bf5230cc1f8",
+      "name": "BCA Utama",
+      "type": "bank",
+      "balance": 0,
+      "is_default": true,
+      "color": "#0284c7",
+      "icon": "bank",
+      "created_at": "2026-10-21T07:23:37.444Z"
+    },
+    {
+      "id": "c51f6494-fb95-4738-93be-a6b6f53a31ba",
+      "user_id": "0ea5354f-4ee7-408d-b2f8-8a0066e16842",
+      "name": "BCA Utama",
+      "type": "bank",
+      "balance": -11110000,
+      "is_default": true,
+      "color": "#0284c7",
+      "icon": "bank",
+      "created_at": "2026-10-21T07:25:57.279Z",
+      "updated_at": "2026-10-21T11:48:23.084Z"
+    },
+    {
+      "id": "7bf4429b-3e6d-4113-b232-bc89362b2301",
+      "user_id": "0ea5354f-4ee7-408d-b2f8-8a0066e16842",
+      "name": "GOPAY",
+      "type": "bank",
+      "balance": 3000000,
+      "is_default": false,
+      "color": "#0284c7",
+      "icon": "wallet",
+      "created_at": "2026-10-21T07:36:45.076Z",
+      "updated_at": "2026-10-21T07:37:50.526Z"
+    },
+    {
+      "id": "0e276cd5-6249-4c23-963c-67b90a8f3b3f",
+      "user_id": "014bb5b4-a643-4a9d-b150-3cd70f6833c9",
+      "name": "BCA Utama",
+      "type": "bank",
+      "balance": 5000000,
+      "is_default": true,
+      "color": "#0284c7",
+      "icon": "bank",
+      "created_at": "2026-10-21T11:50:45.933Z",
+      "updated_at": "2026-10-21T11:51:32.445Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "c0000000-0000-0000-0000-000000000001",
+      "user_id": null,
+      "name": "Makanan & Minuman",
+      "type": "expense",
+      "emoji": "🍜",
+      "color": "#0284c7",
+      "is_system": true
+    },
+    {
+      "id": "c0000000-0000-0000-0000-000000000002",
+      "user_id": null,
+      "name": "Transportasi",
+      "type": "expense",
+      "emoji": "🚗",
+      "color": "#0369a1",
+      "is_system": true
+    },
+    {
+      "id": "c0000000-0000-0000-0000-000000000003",
+      "user_id": null,
+      "name": "Hiburan & Liburan",
+      "type": "expense",
+      "emoji": "🎮",
+      "color": "#38bdf8",
+      "is_system": true
+    },
+    {
+      "id": "c0000000-0000-0000-0000-000000000004",
+      "user_id": null,
+      "name": "Tagihan & Utilitas",
+      "type": "expense",
+      "emoji": "🏠",
+      "color": "#0ea5e9",
+      "is_system": true
+    },
+    {
+      "id": "c0000000-0000-0000-0000-000000000005",
+      "user_id": null,
+      "name": "Kesehatan & Medis",
+      "type": "expense",
+      "emoji": "💊",
+      "color": "#0284c7",
+      "is_system": true
+    },
+    {
+      "id": "c0000000-0000-0000-0000-000000000006",
+      "user_id": null,
+      "name": "Belanja Kebutuhan",
+      "type": "expense",
+      "emoji": "👕",
+      "color": "#2563eb",
+      "is_system": true
+    },
+    {
+      "id": "c0000000-0000-0000-0000-000000000007",
+      "user_id": null,
+      "name": "Pendidikan & Kursus",
+      "type": "expense",
+      "emoji": "📚",
+      "color": "#1d4ed8",
+      "is_system": true
+    },
+    {
+      "id": "c0000000-0000-0000-0000-000000000008",
+      "user_id": null,
+      "name": "Gaji Pokok",
+      "type": "income",
+      "emoji": "💰",
+      "color": "#059669",
+      "is_system": true
+    },
+    {
+      "id": "c0000000-0000-0000-0000-000000000009",
+      "user_id": null,
+      "name": "Pendapatan Freelance",
+      "type": "income",
+      "emoji": "💼",
+      "color": "#10b981",
+      "is_system": true
+    },
+    {
+      "id": "c0000000-0000-0000-0000-000000000010",
+      "user_id": null,
+      "name": "Investasi & Dividen",
+      "type": "income",
+      "emoji": "📈",
+      "color": "#34d399",
+      "is_system": true
+    },
+    {
+      "id": "f1ef0d9d-6c53-48db-ab9b-a074e15235c1",
+      "user_id": "47bf2e71-2e0e-4379-a9a5-b73c4ff5d3ff",
+      "name": "Makanan & Minuman",
+      "emoji": "🍜",
+      "type": "expense",
+      "color": "#0284c7",
+      "is_system": false,
+      "created_at": "2026-10-21T07:02:14.878Z"
+    },
+    {
+      "id": "5041afe7-1262-46cd-96ff-694884201239",
+      "user_id": "47bf2e71-2e0e-4379-a9a5-b73c4ff5d3ff",
+      "name": "Transportasi",
+      "emoji": "🚗",
+      "type": "expense",
+      "color": "#0369a1",
+      "is_system": false,
+      "created_at": "2026-10-21T07:02:14.879Z"
+    },
+    {
+      "id": "b94d7fd5-3616-4d3e-886c-e0570deb8680",
+      "user_id": "47bf2e71-2e0e-4379-a9a5-b73c4ff5d3ff",
+      "name": "Hiburan",
+      "emoji": "🎮",
+      "type": "expense",
+      "color": "#38bdf8",
+      "is_system": false,
+      "created_at": "2026-10-21T07:02:14.891Z"
+    },
+    {
+      "id": "53a32a8f-6872-4eba-ae75-a3e9b44a9cad",
+      "user_id": "47bf2e71-2e0e-4379-a9a5-b73c4ff5d3ff",
+      "name": "Tagihan",
+      "emoji": "🏠",
+      "type": "expense",
+      "color": "#0ea5e9",
+      "is_system": false,
+      "created_at": "2026-10-21T07:02:14.892Z"
+    },
+    {
+      "id": "36e97e50-7217-4ec4-bd71-0a483ac0d7ea",
+      "user_id": "47bf2e71-2e0e-4379-a9a5-b73c4ff5d3ff",
+      "name": "Kesehatan",
+      "emoji": "💊",
+      "type": "expense",
+      "color": "#0284c7",
+      "is_system": false,
+      "created_at": "2026-10-21T07:02:14.903Z"
+    },
+    {
+      "id": "1f56fc90-ccee-46e7-908e-5a7625f6b51e",
+      "user_id": "47bf2e71-2e0e-4379-a9a5-b73c4ff5d3ff",
+      "name": "Belanja",
+      "emoji": "👕",
+      "type": "expense",
+      "color": "#2563eb",
+      "is_system": false,
+      "created_at": "2026-10-21T07:02:14.904Z"
+    },
+    {
+      "id": "8a39dfa6-b971-47a7-88d1-2dd831ff521a",
+      "user_id": "47bf2e71-2e0e-4379-a9a5-b73c4ff5d3ff",
+      "name": "Pendidikan",
+      "emoji": "📚",
+      "type": "expense",
+      "color": "#1d4ed8",
+      "is_system": false,
+      "created_at": "2026-10-21T07:02:14.916Z"
+    },
+    {
+      "id": "09362d29-aaf7-452f-9459-67f05a469d48",
+      "user_id": "47bf2e71-2e0e-4379-a9a5-b73c4ff5d3ff",
+      "name": "Gaji",
+      "emoji": "💰",
+      "type": "income",
+      "color": "#059669",
+      "is_system": false,
+      "created_at": "2026-10-21T07:02:14.929Z"
+    },
+    {
+      "id": "2dd4a97d-e512-4593-bad2-a5556c93d9a4",
+      "user_id": "a0d6eef9-7c4b-49db-8e25-1a03aab2d704",
+      "name": "Makanan & Minuman",
+      "emoji": "🍜",
+      "type": "expense",
+      "color": "#0284c7",
+      "is_system": false,
+      "created_at": "2026-10-21T07:10:55.197Z"
+    },
+    {
+      "id": "39fd62ab-3abb-4a51-a35b-2730883ae4e4",
+      "user_id": "a0d6eef9-7c4b-49db-8e25-1a03aab2d704",
+      "name": "Transportasi",
+      "emoji": "🚗",
+      "type": "expense",
+      "color": "#0369a1",
+      "is_system": false,
+      "created_at": "2026-10-21T07:10:55.198Z"
+    },
+    {
+      "id": "b2383c31-6148-484b-a4ca-190c24687219",
+      "user_id": "a0d6eef9-7c4b-49db-8e25-1a03aab2d704",
+      "name": "Hiburan",
+      "emoji": "🎮",
+      "type": "expense",
+      "color": "#38bdf8",
+      "is_system": false,
+      "created_at": "2026-10-21T07:10:55.209Z"
+    },
+    {
+      "id": "f71e7045-3e44-442f-b7f6-35a62d061218",
+      "user_id": "a0d6eef9-7c4b-49db-8e25-1a03aab2d704",
+      "name": "Tagihan",
+      "emoji": "🏠",
+      "type": "expense",
+      "color": "#0ea5e9",
+      "is_system": false,
+      "created_at": "2026-10-21T07:10:55.221Z"
+    },
+    {
+      "id": "dc72e9b0-4b07-4cbb-9493-34820db795dc",
+      "user_id": "a0d6eef9-7c4b-49db-8e25-1a03aab2d704",
+      "name": "Kesehatan",
+      "emoji": "💊",
+      "type": "expense",
+      "color": "#0284c7",
+      "is_system": false,
+      "created_at": "2026-10-21T07:10:55.222Z"
+    },
+    {
+      "id": "67b7300d-6909-419e-971a-9724b5d09bc2",
+      "user_id": "a0d6eef9-7c4b-49db-8e25-1a03aab2d704",
+      "name": "Belanja",
+      "emoji": "👕",
+      "type": "expense",
+      "color": "#2563eb",
+      "is_system": false,
+      "created_at": "2026-10-21T07:10:55.222Z"
+    },
+    {
+      "id": "db4e4c74-5717-4f30-b10f-ee58e65a8415",
+      "user_id": "a0d6eef9-7c4b-49db-8e25-1a03aab2d704",
+      "name": "Pendidikan",
+      "emoji": "📚",
+      "type": "expense",
+      "color": "#1d4ed8",
+      "is_system": false,
+      "created_at": "2026-10-21T07:10:55.223Z"
+    },
+    {
+      "id": "0280bcd1-cffc-4bce-a9ba-ffe4f17122d2",
+      "user_id": "a0d6eef9-7c4b-49db-8e25-1a03aab2d704",
+      "name": "Gaji",
+      "emoji": "💰",
+      "type": "income",
+      "color": "#059669",
+      "is_system": false,
+      "created_at": "2026-10-21T07:10:55.224Z"
+    },
+    {
+      "id": "ff0a66d5-df58-4ba1-9d9c-69c3a3ea9702",
+      "user_id": "c6029df3-b586-434f-a179-e595dab259c0",
+      "name": "Makanan & Minuman",
+      "emoji": "🍜",
+      "type": "expense",
+      "color": "#0284c7",
+      "is_system": false,
+      "created_at": "2026-10-21T07:12:18.758Z"
+    },
+    {
+      "id": "627b8da3-f0a8-4514-937a-dde8eaf70a29",
+      "user_id": "c6029df3-b586-434f-a179-e595dab259c0",
+      "name": "Transportasi",
+      "emoji": "🚗",
+      "type": "expense",
+      "color": "#0369a1",
+      "is_system": false,
+      "created_at": "2026-10-21T07:12:18.771Z"
+    },
+    {
+      "id": "2557b46d-0e9c-4ae3-b718-3ae17c51cadc",
+      "user_id": "c6029df3-b586-434f-a179-e595dab259c0",
+      "name": "Hiburan",
+      "emoji": "🎮",
+      "type": "expense",
+      "color": "#38bdf8",
+      "is_system": false,
+      "created_at": "2026-10-21T07:12:18.787Z"
+    },
+    {
+      "id": "d9bddce3-1dad-4b2c-bdf5-f8d0618ce93b",
+      "user_id": "c6029df3-b586-434f-a179-e595dab259c0",
+      "name": "Tagihan",
+      "emoji": "🏠",
+      "type": "expense",
+      "color": "#0ea5e9",
+      "is_system": false,
+      "created_at": "2026-10-21T07:12:18.801Z"
+    },
+    {
+      "id": "37b06e8e-8aa6-4ab3-9eb4-522b5da59368",
+      "user_id": "c6029df3-b586-434f-a179-e595dab259c0",
+      "name": "Kesehatan",
+      "emoji": "💊",
+      "type": "expense",
+      "color": "#0284c7",
+      "is_system": false,
+      "created_at": "2026-10-21T07:12:18.814Z"
+    },
+    {
+      "id": "bb150e53-7627-4c6f-a69f-5b0607e69f6d",
+      "user_id": "c6029df3-b586-434f-a179-e595dab259c0",
+      "name": "Belanja",
+      "emoji": "👕",
+      "type": "expense",
+      "color": "#2563eb",
+      "is_system": false,
+      "created_at": "2026-10-21T07:12:18.827Z"
+    },
+    {
+      "id": "04af01c8-dcdb-4855-8315-9b2ba49f11ad",
+      "user_id": "c6029df3-b586-434f-a179-e595dab259c0",
+      "name": "Pendidikan",
+      "emoji": "📚",
+      "type": "expense",
+      "color": "#1d4ed8",
+      "is_system": false,
+      "created_at": "2026-10-21T07:12:18.838Z"
+    },
+    {
+      "id": "8619a18d-8d0f-44ad-83d7-d75ed97f8fe8",
+      "user_id": "c6029df3-b586-434f-a179-e595dab259c0",
+      "name": "Gaji",
+      "emoji": "💰",
+      "type": "income",
+      "color": "#059669",
+      "is_system": false,
+      "created_at": "2026-10-21T07:12:18.839Z"
+    },
+    {
+      "id": "6fcc5854-dfb6-48af-a676-fc8813da619e",
+      "user_id": "1050e9de-6d10-4867-b8b1-92eb0cf141af",
+      "name": "Makanan & Minuman",
+      "emoji": "🍜",
+      "type": "expense",
+      "color": "#0284c7",
+      "is_system": false,
+      "created_at": "2026-10-21T07:14:13.488Z"
+    },
+    {
+      "id": "8edb6e6c-9248-48ae-a07a-6afe2bb510b3",
+      "user_id": "1050e9de-6d10-4867-b8b1-92eb0cf141af",
+      "name": "Transportasi",
+      "emoji": "🚗",
+      "type": "expense",
+      "color": "#0369a1",
+      "is_system": false,
+      "created_at": "2026-10-21T07:14:13.501Z"
+    },
+    {
+      "id": "f20990f5-b7e0-4a2c-9dae-0354c52e59f6",
+      "user_id": "1050e9de-6d10-4867-b8b1-92eb0cf141af",
+      "name": "Hiburan",
+      "emoji": "🎮",
+      "type": "expense",
+      "color": "#38bdf8",
+      "is_system": false,
+      "created_at": "2026-10-21T07:14:13.515Z"
+    },
+    {
+      "id": "bd81ad24-6da6-469b-b4ee-e499c20cc8f0",
+      "user_id": "1050e9de-6d10-4867-b8b1-92eb0cf141af",
+      "name": "Tagihan",
+      "emoji": "🏠",
+      "type": "expense",
+      "color": "#0ea5e9",
+      "is_system": false,
+      "created_at": "2026-10-21T07:14:13.529Z"
+    },
+    {
+      "id": "9ff6b069-223d-458e-b998-f2b4c8cc0cda",
+      "user_id": "1050e9de-6d10-4867-b8b1-92eb0cf141af",
+      "name": "Kesehatan",
+      "emoji": "💊",
+      "type": "expense",
+      "color": "#0284c7",
+      "is_system": false,
+      "created_at": "2026-10-21T07:14:13.542Z"
+    },
+    {
+      "id": "97eeacdf-7e92-4da5-8c93-0202e11f37d5",
+      "user_id": "1050e9de-6d10-4867-b8b1-92eb0cf141af",
+      "name": "Belanja",
+      "emoji": "👕",
+      "type": "expense",
+      "color": "#2563eb",
+      "is_system": false,
+      "created_at": "2026-10-21T07:14:13.552Z"
+    },
+    {
+      "id": "65b4a76a-ed10-46ff-897d-2dd75c1a6335",
+      "user_id": "1050e9de-6d10-4867-b8b1-92eb0cf141af",
+      "name": "Pendidikan",
+      "emoji": "📚",
+      "type": "expense",
+      "color": "#1d4ed8",
+      "is_system": false,
+      "created_at": "2026-10-21T07:14:13.565Z"
+    },
+    {
+      "id": "9d0721d7-5fad-4453-9a3f-3080e0b585ef",
+      "user_id": "1050e9de-6d10-4867-b8b1-92eb0cf141af",
+      "name": "Gaji",
+      "emoji": "💰",
+      "type": "income",
+      "color": "#059669",
+      "is_system": false,
+      "created_at": "2026-10-21T07:14:13.579Z"
+    },
+    {
+      "id": "70da347c-ff44-4034-a178-444764ed820a",
+      "user_id": "b30e44f5-c8ba-4793-8931-7bf5230cc1f8",
+      "name": "Makanan & Minuman",
+      "emoji": "🍜",
+      "type": "expense",
+      "color": "#0284c7",
+      "is_system": false,
+      "created_at": "2026-10-21T07:23:37.445Z"
+    },
+    {
+      "id": "6c8c2109-4421-4d4e-9fba-2937f2bd0736",
+      "user_id": "b30e44f5-c8ba-4793-8931-7bf5230cc1f8",
+      "name": "Transportasi",
+      "emoji": "🚗",
+      "type": "expense",
+      "color": "#0369a1",
+      "is_system": false,
+      "created_at": "2026-10-21T07:23:37.445Z"
+    },
+    {
+      "id": "a207074a-4909-4ca7-9151-ebb0e66737dd",
+      "user_id": "b30e44f5-c8ba-4793-8931-7bf5230cc1f8",
+      "name": "Hiburan",
+      "emoji": "🎮",
+      "type": "expense",
+      "color": "#38bdf8",
+      "is_system": false,
+      "created_at": "2026-10-21T07:23:37.459Z"
+    },
+    {
+      "id": "ccfb71cf-e233-4090-a6b4-fe357a2102f4",
+      "user_id": "b30e44f5-c8ba-4793-8931-7bf5230cc1f8",
+      "name": "Tagihan",
+      "emoji": "🏠",
+      "type": "expense",
+      "color": "#0ea5e9",
+      "is_system": false,
+      "created_at": "2026-10-21T07:23:37.473Z"
+    },
+    {
+      "id": "714fc045-dcc3-4187-b39a-048a49017404",
+      "user_id": "b30e44f5-c8ba-4793-8931-7bf5230cc1f8",
+      "name": "Kesehatan",
+      "emoji": "💊",
+      "type": "expense",
+      "color": "#0284c7",
+      "is_system": false,
+      "created_at": "2026-10-21T07:23:37.487Z"
+    },
+    {
+      "id": "4a925cbe-51cf-4053-87c7-09290f540597",
+      "user_id": "b30e44f5-c8ba-4793-8931-7bf5230cc1f8",
+      "name": "Belanja",
+      "emoji": "👕",
+      "type": "expense",
+      "color": "#2563eb",
+      "is_system": false,
+      "created_at": "2026-10-21T07:23:37.498Z"
+    },
+    {
+      "id": "0e142d5f-43dc-41ef-a49f-9ac487df4cc9",
+      "user_id": "b30e44f5-c8ba-4793-8931-7bf5230cc1f8",
+      "name": "Pendidikan",
+      "emoji": "📚",
+      "type": "expense",
+      "color": "#1d4ed8",
+      "is_system": false,
+      "created_at": "2026-10-21T07:23:37.511Z"
+    },
+    {
+      "id": "b4c13713-7a03-4296-83a1-0ef53e1122c3",
+      "user_id": "b30e44f5-c8ba-4793-8931-7bf5230cc1f8",
+      "name": "Gaji",
+      "emoji": "💰",
+      "type": "income",
+      "color": "#059669",
+      "is_system": false,
+      "created_at": "2026-10-21T07:23:37.525Z"
+    },
+    {
+      "id": "d0fd2050-3734-4ee7-bba4-ab1d441d033c",
+      "user_id": "0ea5354f-4ee7-408d-b2f8-8a0066e16842",
+      "name": "Makanan & Minuman",
+      "emoji": "🍜",
+      "type": "expense",
+      "color": "#0284c7",
+      "is_system": false,
+      "created_at": "2026-10-21T07:25:57.280Z"
+    },
+    {
+      "id": "17c7b3d5-cf94-43ab-a13b-510b5be0dcef",
+      "user_id": "0ea5354f-4ee7-408d-b2f8-8a0066e16842",
+      "name": "Transportasi",
+      "emoji": "🚗",
+      "type": "expense",
+      "color": "#0369a1",
+      "is_system": false,
+      "created_at": "2026-10-21T07:25:57.295Z"
+    },
+    {
+      "id": "9f642c3a-009f-4892-85e1-07b16158763b",
+      "user_id": "0ea5354f-4ee7-408d-b2f8-8a0066e16842",
+      "name": "Hiburan",
+      "emoji": "🎮",
+      "type": "expense",
+      "color": "#38bdf8",
+      "is_system": false,
+      "created_at": "2026-10-21T07:25:57.307Z"
+    },
+    {
+      "id": "eca24af1-0378-42ae-80bb-a3e0cea1c146",
+      "user_id": "0ea5354f-4ee7-408d-b2f8-8a0066e16842",
+      "name": "Tagihan",
+      "emoji": "🏠",
+      "type": "expense",
+      "color": "#0ea5e9",
+      "is_system": false,
+      "created_at": "2026-10-21T07:25:57.321Z"
+    },
+    {
+      "id": "ce1b78c8-487e-4f34-9553-14bb782e75d4",
+      "user_id": "0ea5354f-4ee7-408d-b2f8-8a0066e16842",
+      "name": "Kesehatan",
+      "emoji": "💊",
+      "type": "expense",
+      "color": "#0284c7",
+      "is_system": false,
+      "created_at": "2026-10-21T07:25:57.331Z"
+    },
+    {
+      "id": "e8edfe6e-276a-4e1f-aed9-937221097849",
+      "user_id": "0ea5354f-4ee7-408d-b2f8-8a0066e16842",
+      "name": "Belanja",
+      "emoji": "👕",
+      "type": "expense",
+      "color": "#2563eb",
+      "is_system": false,
+      "created_at": "2026-10-21T07:25:57.345Z"
+    },
+    {
+      "id": "60815d67-4f83-49a6-9037-5fc62dbcdc24",
+      "user_id": "0ea5354f-4ee7-408d-b2f8-8a0066e16842",
+      "name": "Pendidikan",
+      "emoji": "📚",
+      "type": "expense",
+      "color": "#1d4ed8",
+      "is_system": false,
+      "created_at": "2026-10-21T07:25:57.358Z"
+    },
+    {
+      "id": "1817b373-cfdd-4173-be63-9d29f7f7b8b5",
+      "user_id": "0ea5354f-4ee7-408d-b2f8-8a0066e16842",
+      "name": "Gaji",
+      "emoji": "💰",
+      "type": "income",
+      "color": "#059669",
+      "is_system": false,
+      "created_at": "2026-10-21T07:25:57.372Z"
+    },
+    {
+      "id": "cdba4fb2-4b98-48d1-b9e4-4cc2e1fdc105",
+      "user_id": "014bb5b4-a643-4a9d-b150-3cd70f6833c9",
+      "name": "Makanan & Minuman",
+      "emoji": "🍜",
+      "type": "expense",
+      "color": "#0284c7",
+      "is_system": false,
+      "created_at": "2026-10-21T11:50:45.934Z"
+    },
+    {
+      "id": "60adcfb8-4074-4626-baf3-4d02fa75ebed",
+      "user_id": "014bb5b4-a643-4a9d-b150-3cd70f6833c9",
+      "name": "Transportasi",
+      "emoji": "🚗",
+      "type": "expense",
+      "color": "#0369a1",
+      "is_system": false,
+      "created_at": "2026-10-21T11:50:45.934Z"
+    },
+    {
+      "id": "69038ed6-15b0-4b37-9e6e-e225e6c4e7a9",
+      "user_id": "014bb5b4-a643-4a9d-b150-3cd70f6833c9",
+      "name": "Hiburan",
+      "emoji": "🎮",
+      "type": "expense",
+      "color": "#38bdf8",
+      "is_system": false,
+      "created_at": "2026-10-21T11:50:45.935Z"
+    },
+    {
+      "id": "c03f1d80-2412-4dea-b276-6a519f8c1dcb",
+      "user_id": "014bb5b4-a643-4a9d-b150-3cd70f6833c9",
+      "name": "Tagihan",
+      "emoji": "🏠",
+      "type": "expense",
+      "color": "#0ea5e9",
+      "is_system": false,
+      "created_at": "2026-10-21T11:50:45.948Z"
+    },
+    {
+      "id": "e608acde-c776-4bbd-acac-58928a4e9426",
+      "user_id": "014bb5b4-a643-4a9d-b150-3cd70f6833c9",
+      "name": "Kesehatan",
+      "emoji": "💊",
+      "type": "expense",
+      "color": "#0284c7",
+      "is_system": false,
+      "created_at": "2026-10-21T11:50:45.961Z"
+    },
+    {
+      "id": "8f914bfe-6be3-4e74-8ec9-3ca326334c8e",
+      "user_id": "014bb5b4-a643-4a9d-b150-3cd70f6833c9",
+      "name": "Belanja",
+      "emoji": "👕",
+      "type": "expense",
+      "color": "#2563eb",
+      "is_system": false,
+      "created_at": "2026-10-21T11:50:45.973Z"
+    },
+    {
+      "id": "b7318499-22e2-4d41-9461-2044449ebcec",
+      "user_id": "014bb5b4-a643-4a9d-b150-3cd70f6833c9",
+      "name": "Pendidikan",
+      "emoji": "📚",
+      "type": "expense",
+      "color": "#1d4ed8",
+      "is_system": false,
+      "created_at": "2026-10-21T11:50:45.984Z"
+    },
+    {
+      "id": "da297491-73d1-4fc9-acf8-56844d996b9e",
+      "user_id": "014bb5b4-a643-4a9d-b150-3cd70f6833c9",
+      "name": "Gaji",
+      "emoji": "💰",
+      "type": "income",
+      "color": "#059669",
+      "is_system": false,
+      "created_at": "2026-10-21T11:50:45.996Z"
+    }
+  ],
+  "budgets": [],
+  "transactions": [
+    {
+      "user_id": "0ea5354f-4ee7-408d-b2f8-8a0066e16842",
+      "wallet_id": "c51f6494-fb95-4738-93be-a6b6f53a31ba",
+      "category_id": "c0000000-0000-0000-0000-000000000008",
+      "type": "income",
+      "amount": 5000000,
+      "date": "2026-10-21T07:33:43.535Z",
+      "notes": "Gajian",
+      "source": "tata_ai_bot",
+      "id": "49cf60f8-f72c-4e4a-9c29-cffb398d4dfc",
+      "created_at": "2026-10-21T07:33:43.536Z"
+    },
+    {
+      "user_id": "0ea5354f-4ee7-408d-b2f8-8a0066e16842",
+      "wallet_id": "c51f6494-fb95-4738-93be-a6b6f53a31ba",
+      "category_id": "c0000000-0000-0000-0000-000000000001",
+      "type": "expense",
+      "amount": 25000,
+      "date": "2026-10-21T07:33:43.599Z",
+      "notes": "Beli bakso",
+      "source": "tata_ai_bot",
+      "id": "a7165679-94e9-481d-afc7-4fee578e1163",
+      "created_at": "2026-10-21T07:33:43.599Z"
+    },
+    {
+      "user_id": "0ea5354f-4ee7-408d-b2f8-8a0066e16842",
+      "wallet_id": "c51f6494-fb95-4738-93be-a6b6f53a31ba",
+      "category_id": "c0000000-0000-0000-0000-000000000008",
+      "type": "income",
+      "amount": 100000000,
+      "date": "2026-10-21T07:34:38.337Z",
+      "notes": "Gajian",
+      "source": "tata_ai_bot",
+      "id": "d02e06c0-a9c6-4263-9d30-119d5c5097fd",
+      "created_at": "2026-10-21T07:34:38.338Z"
+    },
+    {
+      "user_id": "0ea5354f-4ee7-408d-b2f8-8a0066e16842",
+      "wallet_id": "c51f6494-fb95-4738-93be-a6b6f53a31ba",
+      "category_id": "c0000000-0000-0000-0000-000000000001",
+      "type": "expense",
+      "amount": 30000000,
+      "date": "2026-10-21T07:35:11.936Z",
+      "notes": "Beli hp ip burgandy",
+      "source": "tata_ai_bot",
+      "id": "c1d2f441-77ae-471a-9537-87a488f940d5",
+      "created_at": "2026-10-21T07:35:11.936Z"
+    },
+    {
+      "user_id": "0ea5354f-4ee7-408d-b2f8-8a0066e16842",
+      "wallet_id": "c51f6494-fb95-4738-93be-a6b6f53a31ba",
+      "to_wallet_id": "7bf4429b-3e6d-4113-b232-bc89362b2301",
+      "type": "transfer",
+      "amount": 2000000,
+      "date": "2026-10-21T07:37:29.289Z",
+      "notes": "topup",
+      "source": "web_app",
+      "id": "3944a4c2-cbe7-4a53-9951-89e1bfcfce42",
+      "created_at": "2026-10-21T07:37:29.289Z"
+    },
+    {
+      "user_id": "0ea5354f-4ee7-408d-b2f8-8a0066e16842",
+      "wallet_id": "c51f6494-fb95-4738-93be-a6b6f53a31ba",
+      "to_wallet_id": "7bf4429b-3e6d-4113-b232-bc89362b2301",
+      "type": "transfer",
+      "amount": 2000000,
+      "date": "2026-10-21T07:37:41.493Z",
+      "notes": "Transfer dari BCA Utama ke GOPAY",
+      "source": "web_app",
+      "id": "56873822-b528-45af-9d75-bbd72b453fa7",
+      "created_at": "2026-10-21T07:37:41.493Z"
+    },
+    {
+      "user_id": "0ea5354f-4ee7-408d-b2f8-8a0066e16842",
+      "wallet_id": "7bf4429b-3e6d-4113-b232-bc89362b2301",
+      "to_wallet_id": "c51f6494-fb95-4738-93be-a6b6f53a31ba",
+      "type": "transfer",
+      "amount": 2000000,
+      "date": "2026-10-21T07:37:50.528Z",
+      "notes": "Transfer dari GOPAY ke BCA Utama",
+      "source": "web_app",
+      "id": "7e0e381b-902b-4e96-b79f-4e16a9754242",
+      "created_at": "2026-10-21T07:37:50.528Z"
+    },
+    {
+      "id": "11aae173-ee9f-4d69-9160-6462039ac790",
+      "user_id": "0ea5354f-4ee7-408d-b2f8-8a0066e16842",
+      "wallet_id": "c51f6494-fb95-4738-93be-a6b6f53a31ba",
+      "category_id": "c0000000-0000-0000-0000-000000000008",
+      "type": "income",
+      "amount": 1000000,
+      "date": "2026-10-21T00:00:00.000Z",
+      "notes": "Pemasukan Manual",
+      "source": "web_app",
+      "receipt_items_count": 0,
+      "created_at": "2026-10-21T07:38:09.923Z"
+    },
+    {
+      "id": "4bda3d30-34c1-4562-8478-13a4ae098592",
+      "user_id": "0ea5354f-4ee7-408d-b2f8-8a0066e16842",
+      "wallet_id": "c51f6494-fb95-4738-93be-a6b6f53a31ba",
+      "category_id": "c0000000-0000-0000-0000-000000000008",
+      "type": "income",
+      "amount": 10000000,
+      "date": "2026-10-21T00:00:00.000Z",
+      "notes": "Pemasukan Manual",
+      "source": "web_app",
+      "receipt_items_count": 0,
+      "created_at": "2026-10-21T07:38:23.452Z"
+    },
+    {
+      "id": "10be86dc-4898-439d-bd18-6c1360880ed3",
+      "user_id": "0ea5354f-4ee7-408d-b2f8-8a0066e16842",
+      "wallet_id": "c51f6494-fb95-4738-93be-a6b6f53a31ba",
+      "category_id": "c0000000-0000-0000-0000-000000000001",
+      "type": "expense",
+      "amount": 50000,
+      "date": "2026-10-21T07:43:41.399Z",
+      "notes": "Makan malam sate padang",
+      "source": "web_app",
+      "receipt_items_count": 0,
+      "created_at": "2026-10-21T07:43:41.505Z"
+    },
+    {
+      "user_id": "0ea5354f-4ee7-408d-b2f8-8a0066e16842",
+      "wallet_id": "c51f6494-fb95-4738-93be-a6b6f53a31ba",
+      "category_id": "c0000000-0000-0000-0000-000000000008",
+      "type": "income",
+      "amount": 5000000,
+      "date": "2026-10-21T08:01:01.329Z",
+      "notes": "Gajian",
+      "source": "tata_ai_bot",
+      "id": "dd3c2339-6949-44ed-a89f-96389d4c6b36",
+      "created_at": "2026-10-21T08:01:01.329Z"
+    },
+    {
+      "user_id": "0ea5354f-4ee7-408d-b2f8-8a0066e16842",
+      "wallet_id": "c51f6494-fb95-4738-93be-a6b6f53a31ba",
+      "category_id": "c0000000-0000-0000-0000-000000000001",
+      "type": "expense",
+      "amount": 50000000,
+      "date": "2026-10-21T08:01:24.543Z",
+      "notes": "Beli saham",
+      "source": "tata_ai_bot",
+      "id": "dc6ce396-8a5c-4041-8b61-256bb8cb720b",
+      "created_at": "2026-10-21T08:01:24.543Z"
+    },
+    {
+      "user_id": "0ea5354f-4ee7-408d-b2f8-8a0066e16842",
+      "wallet_id": "c51f6494-fb95-4738-93be-a6b6f53a31ba",
+      "category_id": "c0000000-0000-0000-0000-000000000001",
+      "type": "expense",
+      "amount": 50000000,
+      "date": "2026-10-21T08:03:33.864Z",
+      "notes": "Beli saham",
+      "source": "tata_ai_bot",
+      "id": "1241ffb9-2898-4a14-bbaa-faf98bf7d993",
+      "created_at": "2026-10-21T08:03:33.864Z"
+    },
+    {
+      "user_id": "0ea5354f-4ee7-408d-b2f8-8a0066e16842",
+      "wallet_id": "c51f6494-fb95-4738-93be-a6b6f53a31ba",
+      "category_id": "c0000000-0000-0000-0000-000000000001",
+      "type": "expense",
+      "amount": 25000,
+      "date": "2026-10-21T11:48:23.040Z",
+      "notes": "Beli cemilan",
+      "source": "tata_ai_bot",
+      "id": "afaa2a57-2f77-4ea1-9c66-91093fcd760a",
+      "created_at": "2026-10-21T11:48:23.041Z"
+    },
+    {
+      "id": "d4eab19d-1fe2-4c63-94b2-f4bf31aaf19f",
+      "user_id": "0ea5354f-4ee7-408d-b2f8-8a0066e16842",
+      "wallet_id": "c51f6494-fb95-4738-93be-a6b6f53a31ba",
+      "category_id": "c0000000-0000-0000-0000-000000000001",
+      "type": "expense",
+      "amount": 10000,
+      "date": "2026-10-21T11:48:23.085Z",
+      "notes": "Es teh manis",
+      "source": "web_app",
+      "receipt_items_count": 0,
+      "created_at": "2026-10-21T11:48:23.085Z"
+    },
+    {
+      "user_id": "014bb5b4-a643-4a9d-b150-3cd70f6833c9",
+      "wallet_id": "0e276cd5-6249-4c23-963c-67b90a8f3b3f",
+      "category_id": "c0000000-0000-0000-0000-000000000008",
+      "type": "income",
+      "amount": 5000000,
+      "date": "2026-10-21T11:51:32.446Z",
+      "notes": "Gajian",
+      "source": "tata_ai_bot",
+      "id": "a7af7d46-64f8-414c-9481-d21a45944536",
+      "created_at": "2026-10-21T11:51:32.446Z"
+    }
+  ],
+  "transaction_items": [],
+  "telegram_bot_configs": [],
+  "telegram_updates": [],
+  "ai_provider_configs": [
+    {
+      "id": "a1",
+      "provider_name": "gemini",
+      "api_key_encrypted": "",
+      "is_active": true,
+      "priority_order": 1,
+      "mode": "failover",
+      "model_name": "gemini-1.5-flash"
+    },
+    {
+      "id": "a2",
+      "provider_name": "openai",
+      "api_key_encrypted": "",
+      "is_active": false,
+      "priority_order": 2,
+      "mode": "failover",
+      "model_name": "gpt-4o-mini"
+    },
+    {
+      "id": "a3",
+      "provider_name": "deepseek",
+      "api_key_encrypted": "",
+      "is_active": false,
+      "priority_order": 3,
+      "mode": "failover",
+      "model_name": "deepseek-chat"
+    }
+  ],
+  "ai_audit_logs": [],
+  "export_histories": [],
+  "payment_orders": [],
+  "admin_audit_logs": [
+    {
+      "admin_id": "a1111111-1111-1111-1111-111111111111",
+      "action": "approve_user",
+      "target_user_id": "47bf2e71-2e0e-4379-a9a5-b73c4ff5d3ff",
+      "details": {
+        "email": "arid@gmail.com",
+        "name": "arid"
+      },
+      "created_at": "2026-10-21T07:04:09.163Z",
+      "id": "0a140c76-2507-4e51-b53d-8224966d1c7f"
+    },
+    {
+      "admin_id": "a1111111-1111-1111-1111-111111111111",
+      "action": "approve_user",
+      "target_user_id": "a0d6eef9-7c4b-49db-8e25-1a03aab2d704",
+      "details": {
+        "email": "user_389190@gmail.com",
+        "name": "User Tes Mandiri"
+      },
+      "created_at": "2026-10-21T07:10:57.142Z",
+      "id": "41b07ffd-5294-4e03-b1ab-d003e0bbfeb8"
+    },
+    {
+      "admin_id": "a1111111-1111-1111-1111-111111111111",
+      "action": "approve_user",
+      "target_user_id": "c6029df3-b586-434f-a179-e595dab259c0",
+      "details": {
+        "email": "user_395606@test.com",
+        "name": "Calon Nasabah Baru"
+      },
+      "created_at": "2026-10-21T07:12:21.194Z",
+      "id": "e5363020-7c80-425c-a059-813e1db33192"
+    },
+    {
+      "admin_id": "a1111111-1111-1111-1111-111111111111",
+      "action": "approve_user",
+      "target_user_id": "b30e44f5-c8ba-4793-8931-7bf5230cc1f8",
+      "details": {
+        "email": "user_device2_1792567417303@gmail.com",
+        "name": "Budi Santoso (HP)"
+      },
+      "created_at": "2026-10-21T07:23:37.563Z",
+      "id": "1464904a-7fd9-4c6f-927e-33fdafa6c6b9"
+    },
+    {
+      "admin_id": "a1111111-1111-1111-1111-111111111111",
+      "action": "approve_user",
+      "target_user_id": "0ea5354f-4ee7-408d-b2f8-8a0066e16842",
+      "details": {
+        "email": "alan@gmail.com",
+        "name": "alan"
+      },
+      "created_at": "2026-10-21T07:26:31.518Z",
+      "id": "4acff819-b4d4-4eda-a973-fad11dbe3b0d"
+    },
+    {
+      "admin_id": "a1111111-1111-1111-1111-111111111111",
+      "action": "approve_user",
+      "target_user_id": "014bb5b4-a643-4a9d-b150-3cd70f6833c9",
+      "details": {
+        "email": "rere@gmail.com",
+        "name": "rere"
+      },
+      "created_at": "2026-10-21T11:51:03.350Z",
+      "id": "8388b182-734b-4ea0-a633-67fcdc41cce6"
+    }
+  ]
+}
