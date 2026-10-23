@@ -48,7 +48,7 @@ router.get('/users', (req, res) => {
 });
 
 // 2. APPROVE USER APPLICANT
-router.put('/users/:id/approve', (req, res) => {
+router.put('/users/:id/approve', async (req, res) => {
   const user = db.table('profiles').findById(req.params.id);
   if (!user) {
     return res.status(404).json({ success: false, message: 'User tidak ditemukan.' });
@@ -70,6 +70,13 @@ router.put('/users/:id/approve', (req, res) => {
     created_at: new Date().toISOString()
   });
 
+  // Ensure immediate sync to cloud database
+  try {
+    await db.saveToCloud();
+  } catch (e) {
+    console.warn('[Admin Approve] Cloud save error:', e.message);
+  }
+
   res.json({
     success: true,
     message: `Pendaftar ${user.full_name} (${user.email}) telah disetujui!`,
@@ -78,7 +85,7 @@ router.put('/users/:id/approve', (req, res) => {
 });
 
 // 3. REJECT USER APPLICANT
-router.put('/users/:id/reject', (req, res) => {
+router.put('/users/:id/reject', async (req, res) => {
   const user = db.table('profiles').findById(req.params.id);
   if (!user) {
     return res.status(404).json({ success: false, message: 'User tidak ditemukan.' });
@@ -98,6 +105,13 @@ router.put('/users/:id/reject', (req, res) => {
     details: { email: user.email, notes: req.body.notes },
     created_at: new Date().toISOString()
   });
+
+  // Ensure immediate sync to cloud database
+  try {
+    await db.saveToCloud();
+  } catch (e) {
+    console.warn('[Admin Reject] Cloud save error:', e.message);
+  }
 
   res.json({
     success: true,

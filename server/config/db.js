@@ -1,10 +1,21 @@
 // ====================================================================
-// TataDana Dual-Ready Database Layer (Supabase Cloud + Localhost Store)
+// TataDana Dual-Ready Database Layer (Neon Cloud PostgreSQL + Localhost Store)
 // ====================================================================
 const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
 const bcrypt = require('bcryptjs');
+
+let neon = null;
+try {
+  neon = require('@neondatabase/serverless').neon;
+} catch (e) {
+  // Optional fallback
+}
+
+const NEON_CONN = process.env.DATABASE_URL || 
+                  process.env.POSTGRES_URL || 
+                  'postgresql://neondb_owner:npg_Q5OSVIKDNz0W@ep-winter-butterfly-b7alsuc7-pooler.c-13.us-east-1.aws.neon.tech/neondb?sslmode=require';
 
 const BUNDLED_DB_FILE = path.join(__dirname, '..', 'data', 'local_db.json');
 const DATA_DIR = process.env.VERCEL ? '/tmp' : path.join(__dirname, '..', 'data');
@@ -28,7 +39,6 @@ if (process.env.VERCEL && !fs.existsSync(DB_FILE) && fs.existsSync(BUNDLED_DB_FI
 function getInitialSeed() {
   const salt = bcrypt.genSaltSync(10);
   const adminPasswordHash = bcrypt.hashSync('Fadhlan2146', salt);
-
   const adminId = 'a1111111-1111-1111-1111-111111111111';
 
   const defaultCategories = [
@@ -85,6 +95,8 @@ function getInitialSeed() {
 class LocalDatabase {
   constructor() {
     this.data = null;
+    this.sql = (neon && NEON_CONN) ? neon(NEON_CONN) : null;
+    this.lastCloudSync = 0;
     this.load();
   }
 
@@ -104,11 +116,50 @@ class LocalDatabase {
     }
   }
 
+  async syncFromCloud(force = false) {
+    if (!this.sql) return;
+    const now = Date.now();
+    // Cache for 1 second unless forced to reduce excessive latency
+    if (!force && now - this.lastCloudSync < 1000) return;
+
+    try {
+      const rows = await this.sql`SELECT data FROM tatadana_store WHERE key = 'main'`;
+      if (rows && rows.length > 0 && rows[0].data) {
+        this.data = rows[0].data;
+        this.lastCloudSync = now;
+        try {
+          fs.writeFileSync(DB_FILE, JSON.stringify(this.data, null, 2), 'utf8');
+        } catch (e) {}
+      }
+    } catch (e) {
+      console.warn('[DB] syncFromCloud error:', e.message);
+    }
+  }
+
+  async saveToCloud() {
+    if (!this.sql || !this.data) return;
+    try {
+      await this.sql`
+        INSERT INTO tatadana_store (key, data, updated_at)
+        VALUES ('main', ${JSON.stringify(this.data)}, NOW())
+        ON CONFLICT (key) DO UPDATE
+        SET data = EXCLUDED.data, updated_at = NOW()
+      `;
+      this.lastCloudSync = Date.now();
+    } catch (e) {
+      console.warn('[DB] saveToCloud error:', e.message);
+    }
+  }
+
   save() {
     try {
       fs.writeFileSync(DB_FILE, JSON.stringify(this.data, null, 2), 'utf8');
     } catch (e) {
       console.error('[DB] Failed to save local_db.json:', e.message);
+    }
+    // Asynchronously replicate to Neon PostgreSQL Cloud
+    if (this.sql) {
+      this.saveToCloud().catch(err => console.warn('[DB] saveToCloud async error:', err.message));
     }
   }
 

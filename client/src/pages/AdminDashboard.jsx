@@ -62,6 +62,10 @@ export default function AdminDashboard({ onImpersonateUser }) {
 
   useEffect(() => {
     loadAdminData();
+    const interval = setInterval(() => {
+      loadAdminData();
+    }, 3000);
+    return () => clearInterval(interval);
   }, []);
 
   // 1. APPROVE USER APPLICANT

@@ -117,6 +117,13 @@ router.post('/register', async (req, res) => {
 
     const token = jwt.sign({ userId, email: cleanEmail, role: 'user' }, JWT_SECRET, { expiresIn: '7d' });
 
+    // Ensure immediate sync to cloud database
+    try {
+      await db.saveToCloud();
+    } catch (e) {
+      console.warn('[Register] Cloud save error:', e.message);
+    }
+
     res.status(201).json({
       success: true,
       message: 'Pendaftaran berhasil. Akun Anda sedang menunggu persetujuan admin.',

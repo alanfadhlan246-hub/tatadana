@@ -24,6 +24,19 @@ app.use((req, res, next) => {
   next();
 });
 
+// Cloud DB sync middleware for Serverless persistence
+app.use(async (req, res, next) => {
+  if (req.path.startsWith('/api')) {
+    try {
+      const { db } = require('./config/db');
+      await db.syncFromCloud();
+    } catch (e) {
+      console.warn('[DB Sync Middleware]:', e.message);
+    }
+  }
+  next();
+});
+
 // Mount Routes
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/wallets', require('./routes/wallets'));
